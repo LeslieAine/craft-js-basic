@@ -38,6 +38,7 @@ export const Topbar = () => {
                 onChange={(_, value) =>
                   actions.setOptions((options) => (options.enabled = value))
                 }
+                
               />
             }
             label="Enable"
